@@ -22,3 +22,8 @@ its simple write `!mute <time> <timeUnit>` and it works `!muteuser` and `!mute u
 you can add a '`s`' to it.
 
 uninstalling the app will result in the user not getting unmuted when they are supposed to.
+
+## u/custommute's socials
+
+[https://developers.reddit.com/apps/custommute/](https://developers.reddit.com/apps/custommute/),
+[https://github.com/DNSCond/custommute](https://github.com/DNSCond/custommute)
