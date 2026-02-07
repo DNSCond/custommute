@@ -8,11 +8,11 @@
     "deploy": "devvit upload",
     "dev": "dotenv -e .env -- devvit playtest",
     "login": "devvit login",
-    "launch": "devvit publish",
+    "launch": "devvit publish --public --bump=patch",
     "type-check": "tsc --build"
   },
   "dependencies": {
-    "@devvit/public-api": "0.12.10",
+    "@devvit/public-api": "0.12.11",
     "anthelpers": "^0.1.3"
   },
   "devDependencies": {
