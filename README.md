@@ -26,13 +26,4 @@ uninstalling the app will result in the user not getting unmuted when they are s
 ## u/custommute's socials
 
 [https://developers.reddit.com/apps/custommute/](https://developers.reddit.com/apps/custommute/),
-[https://github.com/DNSCond/custommute](https://github.com/DNSCond/custommute).
-
-## See Also
-
-### Automoderator Ban Extension (u/autoban-ext)
-
-for the command in the comments and to ban.
-
-[https://developers.reddit.com/apps/autoban-ext](https://developers.reddit.com/apps/autoban-ext),
-[https://github.com/DNSCond/autoban-ext](https://github.com/DNSCond/autoban-ext).
+[https://github.com/DNSCond/custommute](https://github.com/DNSCond/custommute)
