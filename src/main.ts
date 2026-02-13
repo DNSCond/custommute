@@ -4,7 +4,7 @@ import { jsonEncode, ResolveSecondsAfter } from "anthelpers";
 
 Devvit.configure({
   redditAPI: true,
-  redis: true
+  redis: true,
 });
 
 Devvit.addTrigger({
@@ -18,7 +18,7 @@ Devvit.addTrigger({
     })).conversation?.messages ?? new Array);
     const latestMessage = messagesArray[messagesArray.length - 1];
     const commandMatch = latestMessage.bodyMarkdown.trim().match(
-      /!mute(?:\s*user)?\s+(\d+)\s+(hour|minute|second|day|h|m|s|d)s?\b/i
+      /!mute(?:\s*user)?\s+(\d+)\s*(hour|minute|second|day|h|m|s|d)s?\b/i
     ) as RegExpMatchArray | null;
     if (commandMatch) {
       const unit = commandMatch[2].charAt(0).toLowerCase();
